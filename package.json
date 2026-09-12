@@ -5,10 +5,10 @@
   "type": "module",
   "scripts": {
     "test": "node --test",
-    "test:session1": "node --test sessions/01-release-blockers/solution.test.js"
+    "test:session1": "node --test sessions/01-release-blockers/solution.test.js",
+    "test:session2": "node --test sessions/02-sequential-health-checks/solution.test.js"
   },
   "engines": {
     "node": ">=20"
   }
 }
-
