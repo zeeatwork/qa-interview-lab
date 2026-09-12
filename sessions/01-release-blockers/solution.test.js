@@ -36,11 +36,13 @@ test("uses unassigned when the area is missing, null, or empty", () => {
     { testId: "A-2", status: "failed", severity: "high", area: null },
     { testId: "A-3", status: "failed", severity: "high", area: "" },
   ];
+  const snapshot = structuredClone(results);
 
   assert.deepEqual(
     getReleaseBlockers(results).map((result) => result.area),
     ["unassigned", "unassigned", "unassigned"],
   );
+  assert.deepEqual(results, snapshot);
 });
 
 test("returns an empty array when no release blockers exist", () => {
@@ -63,4 +65,3 @@ test("does not mutate the input array or its objects", () => {
 
   assert.deepEqual(results, snapshot);
 });
-
