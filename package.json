@@ -1,0 +1,14 @@
+{
+  "name": "qa-interview-lab",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "test:session1": "node --test sessions/01-release-blockers/solution.test.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
+
