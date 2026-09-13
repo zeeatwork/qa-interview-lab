@@ -6,12 +6,28 @@ An adaptive, interview-focused JavaScript practice lab for QA Engineer and SDET 
 
 1. Sync the laptop and confirm the branch using the commands below.
 2. Read the session `README.md`.
-3. Write brief PEDAC notes before coding.
-4. Work in `solution.js` from memory first.
-5. Run the session tests.
-6. Debug before consulting documentation.
-7. Commit and push your attempt, even if it is incomplete.
-8. Ask ChatGPT to review the session and name the branch if it is not `main`.
+3. Complete the short, session-specific warm-up when one is provided.
+4. Write brief PEDAC notes before coding.
+5. Work in `solution.js` from memory first.
+6. Run the session tests.
+7. Debug before consulting documentation.
+8. Commit and push your attempt, even if it is incomplete.
+9. Ask ChatGPT to review the session and name the branch if it is not `main`.
+
+## Warm-up policy
+
+Warm-ups are optional readiness exercises, not graded assessments. When a warm-up is useful, it will:
+
+- Take about 3 to 7 minutes.
+- Practice one or two concepts needed in that session's main problem.
+- Use a smaller and simpler example than the main problem.
+- Provide guided feedback before independent coding begins.
+- Draw from the mastery map, especially concepts marked Developing.
+- Avoid revealing the complete solution to the main problem.
+
+A session may skip the warm-up when the required concepts are already Strong or when the warm-up would not materially help.
+
+For example, a session requiring array selection, object reshaping, and ordering might begin with one tiny `map()` exercise and one single-rule sorting exercise.
 
 ## Two-laptop sync workflow
 
@@ -28,7 +44,7 @@ Before switching laptops or requesting a review, save the work to GitHub:
 ```bash
 git status
 git add .
-git commit -m "Complete Session 1 attempt"
+git commit -m "Complete session attempt"
 git push origin main
 ```
 
