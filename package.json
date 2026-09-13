@@ -6,7 +6,9 @@
   "scripts": {
     "test": "node --test",
     "test:session1": "node --test sessions/01-release-blockers/solution.test.js",
-    "test:session2": "node --test sessions/02-sequential-health-checks/solution.test.js"
+    "test:session2": "node --test sessions/02-sequential-health-checks/solution.test.js",
+    "test:session2b:warmup": "node --test sessions/02b-test-account-normalizer/warmup.test.js",
+    "test:session2b": "node --test sessions/02b-test-account-normalizer/solution.test.js"
   },
   "engines": {
     "node": ">=20"
