@@ -7,12 +7,20 @@ An adaptive, interview-focused JavaScript practice lab for QA Engineer and SDET 
 1. Sync the laptop and confirm the branch using the commands below.
 2. Read the session `README.md`.
 3. Complete the short, session-specific warm-up when one is provided.
-4. Write brief PEDAC notes before coding.
-5. Work in `solution.js` from memory first.
-6. Run the session tests.
-7. Debug before consulting documentation.
-8. Commit and push your attempt, even if it is incomplete.
+4. Write brief PEDAC notes.
+5. Complete `solution.js` independently.
+6. Run and debug the tests.
+7. Record any documentation or hints used.
+8. Commit and push the attempt, even if tests still fail.
 9. Ask ChatGPT to review the session and name the branch if it is not `main`.
+
+## Self-directed work policy
+
+Sessions are completed independently in the IDE. ChatGPT will provide the exercise files but will not conduct quizzes, ask step-by-step mastery questions, or interrupt the attempt with answer checks.
+
+The learner may consult MDN, reveal repository hints, or request help when desired. Any support used should be recorded in the PEDAC notes so the review can distinguish independent recall from supported completion.
+
+Suggestions, corrections, explanations, and follow-up practice are provided after the attempt is committed and pushed.
 
 ## Warm-up policy
 
@@ -21,7 +29,6 @@ Warm-ups are optional readiness exercises, not graded assessments. When a warm-u
 - Take about 3 to 7 minutes.
 - Practice one or two concepts needed in that session's main problem.
 - Use a smaller and simpler example than the main problem.
-- Provide guided feedback before independent coding begins.
 - Draw from the mastery map, especially concepts marked Developing.
 - Avoid revealing the complete solution to the main problem.
 
@@ -60,7 +67,8 @@ When you request a session review, ChatGPT will:
 2. Inspect its latest commits and changed files.
 3. Confirm that the pushed version is newer than the last reviewed attempt.
 4. Review the solution, PEDAC notes, test behavior, and debugging evidence.
-5. Update the mastery map and spaced-repetition plan.
+5. Suggest improvements after the independent attempt is complete.
+6. Update the mastery map and spaced-repetition plan.
 
 ChatGPT cannot see changes that exist only on a laptop. Push the attempt before requesting review.
 
