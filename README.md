@@ -8,17 +8,19 @@ An adaptive, interview-focused JavaScript practice lab for QA Engineer and SDET 
 2. Read the session `README.md`.
 3. Complete the short, session-specific warm-up when one is provided.
 4. Write brief PEDAC notes.
-5. Complete `solution.js` independently.
+5. Complete `solution.js` independently using your own approach.
 6. Run and debug the tests.
-7. Record any documentation or hints used.
+7. Record any documentation or outside support used.
 8. Commit and push the attempt, even if tests still fail.
 9. Ask ChatGPT to review the session and name the branch if it is not `main`.
 
 ## Self-directed work policy
 
-Sessions are completed independently in the IDE. ChatGPT will provide the exercise files but will not conduct quizzes, ask step-by-step mastery questions, or interrupt the attempt with answer checks.
+Sessions are completed independently in the IDE. ChatGPT provides the exercise files but does not conduct quizzes, ask step-by-step mastery questions, or interrupt the attempt with answer checks.
 
-The learner may consult MDN, reveal repository hints, or request help when desired. Any support used should be recorded in the PEDAC notes so the review can distinguish independent recall from supported completion.
+Exercises specify required behavior, not a required implementation. The learner chooses the control flow, methods, and intermediate data structures. ChatGPT reviews the submitted approach as written and makes the smallest practical correction when help is requested. Different implementations may be discussed afterward as optional improvements.
+
+Repository hints are not included in new sessions. The learner may consult MDN or request help when desired. Any support used should be recorded in the PEDAC notes so the review can distinguish independent recall from supported completion.
 
 Suggestions, corrections, explanations, and follow-up practice are provided after the attempt is committed and pushed.
 
@@ -27,14 +29,13 @@ Suggestions, corrections, explanations, and follow-up practice are provided afte
 Warm-ups are optional readiness exercises, not graded assessments. When a warm-up is useful, it will:
 
 - Take about 3 to 7 minutes.
-- Practice one or two concepts needed in that session's main problem.
+- Practice one or two capabilities needed in that session's main problem.
 - Use a smaller and simpler example than the main problem.
 - Draw from the mastery map, especially concepts marked Developing.
+- Describe the expected behavior without prescribing a specific method.
 - Avoid revealing the complete solution to the main problem.
 
-A session may skip the warm-up when the required concepts are already Strong or when the warm-up would not materially help.
-
-For example, a session requiring array selection, object reshaping, and ordering might begin with one tiny `map()` exercise and one single-rule sorting exercise.
+A session may skip the warm-up when it would not materially help.
 
 ## Two-laptop sync workflow
 
@@ -67,8 +68,9 @@ When you request a session review, ChatGPT will:
 2. Inspect its latest commits and changed files.
 3. Confirm that the pushed version is newer than the last reviewed attempt.
 4. Review the solution, PEDAC notes, test behavior, and debugging evidence.
-5. Suggest improvements after the independent attempt is complete.
-6. Update the mastery map and spaced-repetition plan.
+5. Separate required corrections from optional alternative approaches.
+6. Suggest improvements after the independent attempt is complete.
+7. Update the mastery map and spaced-repetition plan.
 
 ChatGPT cannot see changes that exist only on a laptop. Push the attempt before requesting review.
 
