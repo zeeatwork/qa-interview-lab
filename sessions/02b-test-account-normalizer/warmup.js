@@ -6,9 +6,15 @@
  * becomes ["B"]
  */
 export function getFailedTestIds(results) {
-  // Warm-up 1: write your solution here.
-}
-
+  let failedTestIds = [];
+  results.forEach((result) => {
+    if (result.status === "failed"){
+      failedTestIds.push(result.id);
+    }
+  });
+  return failedTestIds;
+ }
+//getFailedTestIds([{ id: "A", status: "passed" }, { id: "B", status: "failed" }]);
 /**
  * Return a new array containing the lowercase email from every account.
  *
@@ -17,5 +23,9 @@ export function getFailedTestIds(results) {
  * becomes ["qa@example.com", "test@example.com"]
  */
 export function getLowercaseEmails(accounts) {
-  // Warm-up 2: write your solution here.
+  let justEmails = [];
+  accounts.map((account) => {
+    justEmails.push(account["email"].toLowerCase());
+  })
+  return justEmails;
 }
